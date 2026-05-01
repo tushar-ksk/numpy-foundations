@@ -2,10 +2,12 @@ import numpy as np
 
 # Using array(iterable)
 arr = np.array([1,2,3,4])
+print("Array created using list:")
 print(arr)
 
 # Using arange(start,stop,step)
-odd = np.arange(1,20,2)
+odd = np.arange(1,20,2)     # 1 se 20 tk k odd numbers print karo, it include value start but not stop
+print("Odd numbers between 1 and 20:")
 print(odd)
 
 # UserInput Array
